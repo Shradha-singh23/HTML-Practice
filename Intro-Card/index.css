@@ -1,0 +1,85 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-container{
+    border: 1px solid black;
+    width: 40%;
+    height: 50%;
+    margin-left: 100px;
+    background-color: #eff7fa;
+}
+
+.img-banner{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 10px 10px 0 0;
+}
+.container{
+    max-width: 90%;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px #cfcfc4;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #eeeeee;
+}
+
+.left-div{
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: row;
+}
+
+span{
+    padding: 10%;
+}
+
+.text-div{
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    width: auto;
+    background-color: #eeeeee;
+}
+
+.intermediate-div{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: 10px;
+    padding-top: 30%;
+}
+
+.left-text{
+    text-align: left;
+}
+
+.right-text{
+    text-align: right;
+    margin-left: 10%;
+}
+.right-div {
+    width: 20%;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: #96B9D0;
+    margin-top: 5%;
+  }
